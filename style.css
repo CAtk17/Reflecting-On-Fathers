@@ -1,0 +1,28 @@
+html {height: 100%;}
+
+
+    body { background-color: grey;
+        background-size: cover;
+        background-position: center;
+        background-image: url(Images/image-9.jpg);
+        margin: 0;
+    }
+
+    header { height: 150px;
+        background-color: white;
+        text-align: left;
+
+    }
+
+    footer {background-color: rgba(0, 0, 0, 0.638);
+        background-position: center;
+        height: 100px;
+        width: 1024px;
+
+    }
+
+    header a {font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
