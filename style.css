@@ -1,28 +1,34 @@
-html {height: 100%;}
+html { box-sizing: border-box;}
+body {
+    background-size: cover;
+    background-color: gray;
+    margin: 0;
+}
+header {
+    background-color: white;
+    background-size: cover;
+    
+}
+.menu {
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+.menu ul {
+    font: 20px;
+    color: black;
+    float: right;
+    align-self: flex-end;
+}
+a {
+    padding: 10px;
+    text-align: center;
+}
+a:hover{
+    background-color: green;
+    color: black;
+}
 
 
-    body { background-color: grey;
-        background-size: cover;
-        background-position: center;
-        background-image: url(Images/image-9.jpg);
-        margin: 0;
-    }
+   
 
-    header { height: 150px;
-        background-color: white;
-        text-align: left;
-
-    }
-
-    footer {background-color: rgba(0, 0, 0, 0.638);
-        background-position: center;
-        height: 100px;
-        width: 1024px;
-
-    }
-
-    header a {font-size: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
-
-    }
