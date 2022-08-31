@@ -3,23 +3,28 @@ body {
     background-size: cover;
     background-color: gray;
     margin: 0;
+    
 }
 header {
     background-color: white;
     background-size: cover;
     
-}
-.menu {
+}.menu {
     height: 150px;
     width: 100%;
     display: flex;
+    /*display: flex is how to set the menus display to flex mode.*/
 }
 .menu ul {
-    font: 20px;
-    color: black;
-    float: right;
+    flex: content;
+    text-align: end;
     align-self: flex-end;
+    /* align-self is how to get text to the bottom*/
 }
+.menu img {
+    align-items: flex-start;
+}
+
 a {
     padding: 10px;
     text-align: center;
@@ -28,6 +33,37 @@ a:hover{
     background-color: green;
     color: black;
 }
+.section1{ /*background will be a picture*/
+    background-color: #32a8a4;
+    height: 300px;   
+}
+.section1 h1{
+    margin-top: 0;
+    padding-top: 80px;
+    text-align: center;
+
+}
+#section1button{
+    margin-left: 724px;
+}
+.section2 {
+    margin: 0%;
+    background-color: white;
+    height: 250px;
+}
+.section2box{
+    background-color: #ec2b3b;
+    height: 190px;
+    width: 1300px;
+    margin-left: 115px;
+    margin-top: 10px;
+}
+.section2 h1{
+    margin-top: 0;
+    padding-left: px;
+}
+
+
 
 
    
